@@ -1,13 +1,14 @@
 h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(20, 150, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
     font-weight: bolder;
+    
 }
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    background-color:#eee;
-  }
+    background-color: lightgray;
+}
 
 .navbar-light .navbar-brand {
     color: white;
@@ -17,11 +18,11 @@ body {
     width: 100%;
     padding: 0;
 }
-.navbar-brand {
-    font-family: 'Times New Roman', Times, serif;
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     font-size: 25px;
     font-weight: bolder;
-    background-color: rgb(20, 150, 150);
+    background-color: teal;
     padding: 10px;
     margin-left: 5%;
 }
@@ -48,17 +49,45 @@ body {
   
 .text-left {
     text-align: left;
-    color: rgb(20, 150, 150);
-    font-family: 'Times New Roman', Times, serif;
+    color:teal;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
   
 .text-center {
-    color: rgb(20, 150, 150);
-    font-family: 'Times New Roman', Times, serif;
+    color:teal;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
 
 .thumbnail {
     width:50%;
   }
+
+  /* .col-md-1 col-lg-1 {
+      background-color: teal;
+  } */
+
+  .col-md-7 {
+    background-color: white;
+  }
+  
+  .col-sm-12,.col-md-4 {
+    background-color: white;
+  }
+  
+  div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+  
+  .imagetiles {
+    background-color: white;
+  }
+  div.imagetiles div.col-lg-6.col-sm-12 img {
+    width: 100%;
+  }
+.mt-0{
+    color: teal;
+    font-weight: bolder;
+}
+  
